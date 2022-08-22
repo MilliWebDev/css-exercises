@@ -8,28 +8,39 @@ body{
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
+
 
 .para {
-  font-size: 22px;
+  font-size: 32px;
+}
+
+.small-para {
+  font-size: 20px;
+  font-weight: 50px;
 }
 
 .confirm {
   background: green;
-  color: white;
+  color: rgb(239, 233, 233);
   font-weight: bold;
 } 
 
+#confirm-button {
+  background-color: green;
+
+}
+
+#cancel-button {
+  color: black;
+}
+
 .button {
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  color: rgb(229, 222, 222);
   font-size: 20px;
 }
 
-.child {
+div.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
